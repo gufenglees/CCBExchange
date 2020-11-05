@@ -1,0 +1,36 @@
+::Written by xizhi
+根据对应 系统/版本 ,把每行命令复制到 CMD/终端 执行即可
+
+Windows7及以上:
+Python3:
+python -m ensurepip
+python -m pip install requests
+python -m pip install pillow
+python -m pip install qrcode
+
+MAC OS: (可能会提示安装 cc 命令工具,安装即可)
+
+Python3:
+python3 -m ensurepip
+python3 -m pip install requests
+python3 -m pip install pillow
+python3 -m pip install qrcode
+
+Ubuntu: (其它Linux系统自行搜索方法)
+
+Python3:
+sudo apt-get update
+sudo apt-get install python3-tk
+sudo apt-get install python3-requests
+sudo apt-get install python3-pillow
+sudo apt-get install python3-qrcode
+
+Android Termux:
+pkg install python
+pkg install libjpeg-turbo
+python -m pip install requests
+python -m pip install pillow
+python -m pip install qrcode
+
+iOS Pythonista:
+目前所需的模块都自带有,无需额外安装了
